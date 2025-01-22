@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .about-text{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    .home{
+        float: right;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .para{
+        font-size: 18px;
+    }
+    .ol{
+        font-size: 15px;
+        padding: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main" style="height: 1320px;">
+     <!-- top-header start -->
+     <div class="top-header">
+        <div class="contact">
+            <div class="contact-img">
+                <img src="images/web.png" alt="">
+            </div>
+            <div class="contact-text">
+                <p>www.iipacademy.com</p>
+            </div>
+        </div>
+        <div class="contact" style="float: right;">
+            <div class="contact-img">
+                <img src="images/INFO.png" alt="">
+            </div>
+            <div class="contact-text">
+                <p>info@iipacademy.com</p>
+            </div>
+        </div>
+     </div>
+     <!-- top-header end -->
+
+     <!-- main header starts -->
+     <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="" height="125px" width="165px" style="margin-left: 50px; margin-top: 10px;">
+        </div>
+        <div class="menu">
+            <div class="menu-items"><a class="link" href="index.html">Home</a></div>
+            <div class="menu-items" style="color: #00a8ec;">About Us</div>
+            <div class="menu-items"><a class="link" href="courses.html">Courses</a></div>
+            <div class="menu-items"><a class="link" href="gallery.html">Gallery</a></div>
+            <div class="menu-items"><a class="link" href="enquiry.html">Enquiry</a></div>
+            <div class="menu-items"><a class="link" href="contact.html">Contact Us</a></div>
+        </div>
+     </div>
+     <!-- main header ends -->
+
+     <!-- main body starts -->
+        <div class="body">
+            
+            <!-- left-body starts      -->
+
+            <div class="left-body">
+                <div class="left-menu">
+                    <div class="menu-contents" style="margin-top: 0px;"><button class="buton" onclick="index()">Home</button></div>
+                    <div class="menu-contents"><button onclick="about()" class="button">About Us</button></div>
+                    <div class="menu-contents"><button class="buton" onclick="courses()">Courses</div>
+                    <div class="menu-contents"><button class="buton" onclick="gallery()">Gallery</div>
+                    <div class="menu-contents"><button class="buton" onclick="enquiry()">Enquiry</div>
+                    <div class="menu-contents"><button class="buton" onclick="contact()">Contact Us</div>
+                    <script>
+                        function index(){
+                            location.replace("index.html")
+                        }
+                        function about(){
+                            location.replace("about.html")
+                        }
+                        function courses(){
+                            location.replace("courses.html")
+                        }
+                        function gallery(){
+                            location.replace("gallery.html")
+                        }
+                        function enquiry(){
+                            location.replace("enquiry.html")
+                        }
+                        function contact(){
+                            location.replace("contact.html")
+                        }
+                    </script>
+                </div>
+                <div class="news">
+                    <div class="news-box">
+                        <div class="heading">News</div>
+                        <div class="contents">
+                            <div class="newz" style="padding-top: 5px;"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- left-body ends -->
+        <div class="right-body" style="height: 758px;">
+            <div style="padding: 10px 20px; height: 50px;">
+                <div class="about-text">About Us:</div>
+                <div class="home"><i style="color: #00a8ec;">Home/</i> About Us:</div>
+            </div>
+            <div class="para"><p>
+            At IIP Academy, students always had the access to Major & Minor Projects in Website Development (PHP / MySQL)
+            <br><br>
+            IIP Academy Provide best training in .NET & PHP. So that students themselves can be able to develop projects and launch them LIVE on IIP Academy Online Servers. Our Students had developed several projects like wscubetech.com. Many students get easy job placements due to their online Projects on the IIP Academy. We are only institute in Jodhpur which provides free Web Hosting to our students on our servers.
+            <br><br>
+            Engineering & MCA students can develop any small minor projects in .NET or PHP and could extend as their Major Projects in further years.
+            <br><br>
+            Minor Projects are really not hard to develop, as also the colleges generally are not strict in accepting the minor projects.Minor Projects can be small but it must be remarkable. Because details of Minor Projects are required to put in your Resume. And students with good minor projects can be easily placed in good companies during Campus Placements.
+            <br><br>
+            IIP Academy Provides 45 Days Industrial Training for Engineering (B.E. / B.TECH.) Students
+            <br><br>
+            <b>Why IIP Adacemy</b>
+            <br>
+            <ol class="ol">
+            <li>Live industrial projects</li>
+            <li>Expert Developers</li>
+            <li>Placement assistance.</li>
+            <li>100% Practical</li>
+            <li>Interview preparation sessions.</li>
+            </ol>
+            </p>       
+            </div>
+        </div>
+        </div>
+
+        <!-- about us starts -->
+
+        <div class="about">
+            <div class="links">
+                <div class="quick-links">Quick Links</div>
+                <div class="about-us">
+                    <div class="parts" style="padding-top: 10px;">Home</div>
+                    <div class="parts">About Us</div>
+                    <div class="parts">Courses</div>
+                    <div class="parts">Gallery</div>
+                    <div class="parts" style="padding-top: 10px;">Enquiry</div>
+                    <div class="parts">Contact Us</div>
+                </div>
+            </div>
+            <div class="training">
+                <div class="quick-links">Training</div>
+                <div>
+                    <div  class="about-us" style="float: left; width: 48%;">
+                        <div class="parts" style="padding-left: 0px;">PHP(Web Development)</div>
+                        <div class="parts" style="padding-left: 0px;">Advance PHP</div>
+                        <div class="parts" style="padding-left: 0px;">Python</div>
+                        <div class="parts" style="padding-left: 0px;">Android App Development</div>
+                        <div class="parts" style="padding-left: 0px;">Digital Marketing</div>
+                    </div>
+                    <div  class="about-us" style="float: left; width: 52%;">
+                        <div class="parts" style="padding-left: 0px;">Graphic Designing</div>
+                        <div class="parts" style="padding-left: 0px;">Search Engine Optimization</div>
+                        <div class="parts" style="padding-left: 0px;">Wordpress</div>
+                        <div class="parts" style="padding-left: 0px;">Web Design</div>
+                        <div class="parts" style="padding-left: 0px;">Java</div>
+                    </div>
+                </div>
+            </div>
+            <div class="info" style="margin-left: -20px;">
+                <div class="quick-links">Contact Info:</div>
+                <div class="call">Call At: 9269698122</div>
+                <div class="address">1st floor, laxmi tower, bhaskar circle, <br>ratanda, raj - Jodhpur(342001)</div>
+                <div class="social">
+                    <div class="icons"><img src="images/instagram.png" alt=""></div>
+                    <div class="icons"><img src="images/twitter.png" alt=""></div>
+                    <div class="icons"><img src="images/facebook.png" alt=""></div>
+                    <div class="icons"><img src="images/linked-in.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- about us ends -->
+
+        <!-- copyright starts -->
+         
+        <div class="copyright">Copyright © 2019</div>
+
+        <!-- copyright starts -->
+
+    </div>
+</body>
+</html>

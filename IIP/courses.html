@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    .about-text{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    .home{
+        float: right;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .courses{
+        height: 737px;
+        width: 790px;
+        padding: 14px 0px 14px 55px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box{
+        height: 222px;
+        width: 210px;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+    .box1{
+        height: 148px;
+        width: 100%;
+        padding-top: 15px;
+        background-color: #E6611C;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .circle{
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        padding: 3px;
+        border-radius: 50%;
+        border: 10px solid white;
+    }
+    .circle img{
+        height: 55px;
+        width: 75px;
+        padding-left: 15px;
+        padding-top: 18px;
+    }
+    .box2{
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 1px solid #E6611C;
+        height: 54px;
+        color: #E6611C;
+        font-size: 20px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="main" style="height: 1320px;">
+     <!-- top-header start -->
+     <div class="top-header">
+        <div class="contact">
+            <div class="contact-img">
+                <img src="images/web.png" alt="">
+            </div>
+            <div class="contact-text">
+                <p>www.iipacademy.com</p>
+            </div>
+        </div>
+        <div class="contact" style="float: right;">
+            <div class="contact-img">
+                <img src="images/INFO.png" alt="">
+            </div>
+            <div class="contact-text">
+                <p>info@iipacademy.com</p>
+            </div>
+        </div>
+     </div>
+     <!-- top-header end -->
+
+     <!-- main header starts -->
+     <div class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="" height="125px" width="165px" style="margin-left: 50px; margin-top: 10px;">
+        </div>
+        <div class="menu">
+            <div class="menu-items"><a class="link" href="index.html">Home</a></div>
+            <div class="menu-items"><a class="link" href="about.html">About Us</a></div>
+            <div class="menu-items" style="color: #00a8ec;">Courses</div>
+            <div class="menu-items"><a class="link" href="gallery.html">Gallery</a></div>
+            <div class="menu-items"><a class="link" href="enquiry.html">Enquiry</a></div>
+            <div class="menu-items"><a class="link" href="contact.html">Contact Us</a></div>
+        </div>
+     </div>
+     <!-- main header ends -->
+
+     <!-- main body starts -->
+        <div class="body">
+            
+            <!-- left-body starts      -->
+
+            <div class="left-body">
+                <div class="left-menu">
+                    <div class="menu-contents" style="margin-top: 0px;"><button class="buton" onclick="index()">Home</button></div>
+                    <div class="menu-contents"><button onclick="about()" class="button">About Us</button></div>
+                    <div class="menu-contents"><button class="buton" onclick="courses()">Courses</div>
+                    <div class="menu-contents"><button class="buton" onclick="gallery()">Gallery</div>
+                    <div class="menu-contents"><button class="buton" onclick="enquiry()">Enquiry</div>
+                    <div class="menu-contents"><button class="buton" onclick="contact()">Contact Us</div>
+                    <script>
+                        function index(){
+                            location.replace("index.html")
+                        }
+                        function about(){
+                            location.replace("about.html")
+                        }
+                        function courses(){
+                            location.replace("courses.html")
+                        }
+                        function gallery(){
+                            location.replace("gallery.html")
+                        }
+                        function enquiry(){
+                            location.replace("enquiry.html")
+                        }
+                        function contact(){
+                            location.replace("contact.html")
+                        }
+                    </script>
+                </div>
+                <div class="news" style="height: 540.5px;">
+                    <div class="news-box">
+                        <div class="heading">News</div>
+                        <div class="contents">
+                            <div class="newz" style="padding-top: 5px;"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                            <div class="newz"><img class="dot" src="images/dot.jpg" alt=""> ipsum dolor sit amet,</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- left-body ends -->
+
+            <!-- right body starts -->
+            <div class="right-body" style="height: 835px;">
+                <div style="padding: 10px 20px; height: 50px;">
+                    <div class="about-text">Courses</div>
+                    <div class="home"><i style="color: #00a8ec;">Home/</i>Courses</div>
+                </div>
+                <div class="courses">
+                    <div class="box" style="margin-top: 0px;">
+                        <div class="box1">
+                            <div class="circle">
+                                <img src="images/icons/php.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box2">PHP (Website Development)</div>
+                    </div>
+                    <div class="box" style="margin-top: 0px;">
+                        <div class="box1" style="background-color: #7BB1E0;">
+                            <div class="circle">
+                                <img src="images/icons/python.png" alt="" style="height: 70px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #7BB1E0; padding: 15px 0px; height: 28px; color: #7BB1E0;">Python</div>
+                    </div>
+                    <div class="box" style="margin-right: 0px; margin-top: 0px;">
+                        <div class="box1" style="background-color: #5E5DA4;">
+                            <div class="circle">
+                                <img src="images/icons/adv-php.png" alt="" style="width: 55px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #5E5DA4; padding: 15px 0px; height: 28px; color: #5E5DA4;">Advance PHP</div>
+                    </div>
+                    <div class="box">
+                        <div class="box1" style="background-color: #308A7C; height: 145px;">
+                            <div class="circle">
+                                <img src="images/icons/seo.png" alt="" style="height: 75px; width: 60px; padding-left: 15px; padding-top: 10px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #308A7C; height: 49px; color: #308A7C;padding-bottom: 2px;">Search Engine Optimization</div>
+                    </div>
+                    <div class="box">
+                        <div class="box1" style="background-color: #89C222; height: 145px;">
+                            <div class="circle">
+                                <img src="images/icons/android.png" alt="" style="height: 75px; width: 65px; padding-top: 10px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #89C222; height: 49px; color: #89C222; padding-bottom: 2px;">Android App Development</div>
+                    </div>
+                    <div class="box" style="margin-right: 0px;">
+                        <div class="box1" style="background-color: #D60726; height: 145px;">
+                            <div class="circle">
+                                <img src="images/icons/graphic-design.png" alt="" style="height: 70px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #D60726; padding-bottom: 2px; padding-top: 2px; height: 53px; color: #D60726; font-size: 23px;">Graphic Designing</div>
+                    </div>
+                    <div class="box">
+                        <div class="box1" style="background-color: #5E5DA4;">
+                            <div class="circle">
+                                <img src="images/icons/digi-mkting.png" alt="" style="height: 70px; width: 55px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #5E5DA4; padding-top: 10px; height: 49px; color: #5E5DA4;">Digital Marketing</div>
+                    </div>
+                    <div class="box">
+                        <div class="box1" style="background-color: #E6611C;">
+                            <div class="circle">
+                                <img src="images/icons/wordpress.png" alt="" style="height: 70px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #E6611C; padding-top: 10px; height: 49px; color: #E6611C;">Wordpress</div>
+                    </div>
+                    <div class="box" style="margin-right: 0px;">
+                        <div class="box1" style="background-color: #006400;">
+                            <div class="circle">
+                                <img src="images/icons/java.png" alt="" style="height: 70px; width: 55px;">
+                            </div>
+                        </div>
+                        <div class="box2" style="border: 1px solid #006400; padding-top: 10px; height: 49px; color: #006400;">Java</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right body ends --> 
+
+        <!-- about us starts -->
+
+        <div class="about" style="margin-top: 75px;">
+            <div class="links">
+                <div class="quick-links">Quick Links</div>
+                <div class="about-us">
+                    <div class="parts" style="padding-top: 10px;">Home</div>
+                    <div class="parts">About Us</div>
+                    <div class="parts">Courses</div>
+                    <div class="parts">Gallery</div>
+                    <div class="parts" style="padding-top: 10px;">Enquiry</div>
+                    <div class="parts">Contact Us</div>
+                </div>
+            </div>
+            <div class="training">
+                <div class="quick-links">Training</div>
+                <div>
+                    <div  class="about-us" style="float: left; width: 48%;">
+                        <div class="parts" style="padding-left: 0px;">PHP(Web Development)</div>
+                        <div class="parts" style="padding-left: 0px;">Advance PHP</div>
+                        <div class="parts" style="padding-left: 0px;">Python</div>
+                        <div class="parts" style="padding-left: 0px;">Android App Development</div>
+                        <div class="parts" style="padding-left: 0px;">Digital Marketing</div>
+                    </div>
+                    <div  class="about-us" style="float: left; width: 52%;">
+                        <div class="parts" style="padding-left: 0px;">Graphic Designing</div>
+                        <div class="parts" style="padding-left: 0px;">Search Engine Optimization</div>
+                        <div class="parts" style="padding-left: 0px;">Wordpress</div>
+                        <div class="parts" style="padding-left: 0px;">Web Design</div>
+                        <div class="parts" style="padding-left: 0px;">Java</div>
+                    </div>
+                </div>
+            </div>
+            <div class="info" style="margin-left: -20px;">
+                <div class="quick-links">Contact Info:</div>
+                <div class="call">Call At: 9269698122</div>
+                <div class="address">1st floor, laxmi tower, bhaskar circle, <br>ratanda, raj - Jodhpur(342001)</div>
+                <div class="social">
+                    <div class="icons"><img src="images/instagram.png" alt=""></div>
+                    <div class="icons"><img src="images/twitter.png" alt=""></div>
+                    <div class="icons"><img src="images/facebook.png" alt=""></div>
+                    <div class="icons"><img src="images/linked-in.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- about us ends -->
+
+        <!-- copyright starts -->
+         
+        <div class="copyright">Copyright © 2019</div>
+
+        <!-- copyright starts -->
+    </div>
+</body>
+</html>
