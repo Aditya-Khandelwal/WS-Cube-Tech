@@ -231,7 +231,7 @@ header{
     transform: scale(1.02);
 }
 .more{
-    display: flex;
+    display: inline-flex;
     color: #666666;
     font-size: 17px;
     font-weight: 600;
